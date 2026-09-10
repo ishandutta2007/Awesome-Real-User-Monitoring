@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Real-User-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-User-Monitoring?style=flat-square" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-User-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-User-Monitoring?style=flat-square" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-User-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Real-User-Monitoring?style=flat-square" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Real-User-Monitoring/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Real-User-Monitoring?style=flat-square" alt="GitHub issues"/></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/></a>
@@ -68,60 +68,60 @@ Real User Monitoring (RUM) captures performance, network latency, browser errors
 
 ## 💻 Open-Source GitHub Projects
 
-*Sorted in descending order by GitHub star count. Click any star badge to view stargazers.*
+*Sorted in descending order by GitHub star count. Click any Stars_Badge to view stargazers.*
 
-1. **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+1. **[Grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
    The open and composable observability and data visualization platform. Ingests and graphs real user monitoring signals from Grafana Faro, OpenTelemetry browser agents, Prometheus, and Jaeger.
 
-2. **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
+2. **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
    Open-source OpenTelemetry-native APM and observability platform with ClickHouse storage. Collects frontend browser spans, web vitals, and user sessions alongside backend traces, metrics, and logs.
 
-3. **[rrweb](https://github.com/rrweb-io/rrweb)** [![GitHub stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers)  
+3. **[rrweb](https://github.com/rrweb-io/rrweb)** [![GitHub_Stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers)  
    Foundational open-source web session recording and replay library. Captures and reproduces DOM mutations, user gestures, canvas renderings, and console events with high fidelity.
 
-4. **[OpenReplay](https://github.com/openreplay/openreplay)** [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)  
+4. **[OpenReplay](https://github.com/openreplay/openreplay)** [![GitHub_Stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)  
    Self-hosted session replay and user experience analytics platform. Combines video-like session reproduction with network payload inspection, Redux state inspection, and frontend error tracking.
 
-5. **[HyperDX](https://github.com/hyperdxio/hyperdx)** [![GitHub stars](https://img.shields.io/github/stars/hyperdxio/hyperdx?style=social&color=white)](https://github.com/hyperdxio/hyperdx/stargazers)  
+5. **[HyperDX](https://github.com/hyperdxio/hyperdx)** [![GitHub_Stars](https://img.shields.io/github/stars/hyperdxio/hyperdx?style=social&color=white)](https://github.com/hyperdxio/hyperdx/stargazers)  
    Open-source observability platform unifying browser session replay, logs, metrics, errors, and OpenTelemetry traces in a single UI powered by ClickHouse.
 
-6. **[Highlight.io](https://github.com/highlight/highlight)** [![GitHub stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers)  
+6. **[Highlight.io](https://github.com/highlight/highlight)** [![GitHub_Stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers)  
    Full-stack monitoring platform offering session replay, frontend error monitoring, OpenTelemetry-compatible tracing, and log aggregation for modern web applications.
 
-7. **[Sentry JavaScript SDK](https://github.com/getsentry/sentry-javascript)** [![GitHub stars](https://img.shields.io/github/stars/getsentry/sentry-javascript?style=social&color=white)](https://github.com/getsentry/sentry-javascript/stargazers)  
+7. **[Sentry JavaScript SDK](https://github.com/getsentry/sentry-javascript)** [![GitHub_Stars](https://img.shields.io/github/stars/getsentry/sentry-javascript?style=social&color=white)](https://github.com/getsentry/sentry-javascript/stargazers)  
    Official multi-package client SDK for JavaScript and frontend frameworks (React, Next.js, Vue, Angular, Svelte). Ingests error breadcrumbs, Core Web Vitals, spans, and session replays.
 
-8. **[web-vitals](https://github.com/GoogleChrome/web-vitals)** [![GitHub stars](https://img.shields.io/github/stars/GoogleChrome/web-vitals?style=social&color=white)](https://github.com/GoogleChrome/web-vitals/stargazers)  
+8. **[web-vitals](https://github.com/GoogleChrome/web-vitals)** [![GitHub_Stars](https://img.shields.io/github/stars/GoogleChrome/web-vitals?style=social&color=white)](https://github.com/GoogleChrome/web-vitals/stargazers)  
    Google's official, tiny (~2KB) modular library for accurately measuring all Core Web Vitals (LCP, INP, CLS) and diagnostic metrics (FCP, TTFB) in real user production browsers.
 
-9. **[Coroot](https://github.com/coroot/coroot)** [![GitHub stars](https://img.shields.io/github/stars/coroot/coroot?style=social&color=white)](https://github.com/coroot/coroot/stargazers)  
+9. **[Coroot](https://github.com/coroot/coroot)** [![GitHub_Stars](https://img.shields.io/github/stars/coroot/coroot?style=social&color=white)](https://github.com/coroot/coroot/stargazers)  
    Open-source APM and observability platform with automated root-cause analysis based on eBPF and OpenTelemetry telemetry data, tracking end-user latency and service health.
 
-10. **[Uptrace](https://github.com/uptrace/uptrace)** [![GitHub stars](https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white)](https://github.com/uptrace/uptrace/stargazers)  
+10. **[Uptrace](https://github.com/uptrace/uptrace)** [![GitHub_Stars](https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white)](https://github.com/uptrace/uptrace/stargazers)  
     Open-source APM backend built on OpenTelemetry and ClickHouse. Ingests and analyzes frontend user traces, client-side metrics, and server-side distributed traces.
 
-11. **[OpenTelemetry JavaScript](https://github.com/open-telemetry/opentelemetry-js)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-js?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-js/stargazers)  
+11. **[OpenTelemetry JavaScript](https://github.com/open-telemetry/opentelemetry-js)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-js?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-js/stargazers)  
     CNCF standard instrumentation client for browser and JavaScript applications. Standards-based collection of traces, metrics, and RUM signals with cross-origin W3C tracecontext propagation.
 
-12. **[Perfume.js](https://github.com/Zizzamia/perfume.js)** [![GitHub stars](https://img.shields.io/github/stars/Zizzamia/perfume.js?style=social&color=white)](https://github.com/Zizzamia/perfume.js/stargazers)  
+12. **[Perfume.js](https://github.com/Zizzamia/perfume.js)** [![GitHub_Stars](https://img.shields.io/github/stars/Zizzamia/perfume.js?style=social&color=white)](https://github.com/Zizzamia/perfume.js/stargazers)  
     Lightweight, modular web performance and RUM library. Measures Core Web Vitals, navigation timing, resource timing, storage estimates, and sends beacons to custom analytics backends.
 
-13. **[Boomerang](https://github.com/akamai/boomerang)** [![GitHub stars](https://img.shields.io/github/stars/akamai/boomerang?style=social&color=white)](https://github.com/akamai/boomerang/stargazers)  
+13. **[Boomerang](https://github.com/akamai/boomerang)** [![GitHub_Stars](https://img.shields.io/github/stars/akamai/boomerang?style=social&color=white)](https://github.com/akamai/boomerang/stargazers)  
     Pioneering real user monitoring library created by Akamai. Captures page load timings, DNS latency, TCP connection overhead, bandwidth, and custom user performance beacons.
 
-14. **[Grafana Faro Web SDK](https://github.com/grafana/faro-web-sdk)** [![GitHub stars](https://img.shields.io/github/stars/grafana/faro-web-sdk?style=social&color=white)](https://github.com/grafana/faro-web-sdk/stargazers)  
+14. **[Grafana Faro Web SDK](https://github.com/grafana/faro-web-sdk)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/faro-web-sdk?style=social&color=white)](https://github.com/grafana/faro-web-sdk/stargazers)  
     Frontend observability web SDK purpose-built for real user monitoring. Instruments browser apps to capture errors, user interactions, Core Web Vitals, and traces for Grafana LGTM.
 
-15. **[OpenTelemetry JS Contrib](https://github.com/open-telemetry/opentelemetry-js-contrib)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-js-contrib?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-js-contrib/stargazers)  
+15. **[OpenTelemetry JS Contrib](https://github.com/open-telemetry/opentelemetry-js-contrib)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-js-contrib?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-js-contrib/stargazers)  
     Community extensions for OpenTelemetry JS, including automated instrumentation plugins for document-load, user-interaction, fetch, and XMLHttpRequests.
 
-16. **[PostHog JS SDK](https://github.com/PostHog/posthog-js)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog-js?style=social&color=white)](https://github.com/PostHog/posthog-js/stargazers)  
+16. **[PostHog JS SDK](https://github.com/PostHog/posthog-js)** [![GitHub_Stars](https://img.shields.io/github/stars/PostHog/posthog-js?style=social&color=white)](https://github.com/PostHog/posthog-js/stargazers)  
     Client SDK providing automatic user interaction capture, session replay, web performance monitoring, feature flags, and frontend analytics.
 
-17. **[Elastic APM RUM JS](https://github.com/elastic/apm-agent-rum-js)** [![GitHub stars](https://img.shields.io/github/stars/elastic/apm-agent-rum-js?style=social&color=white)](https://github.com/elastic/apm-agent-rum-js/stargazers)  
+17. **[Elastic APM RUM JS](https://github.com/elastic/apm-agent-rum-js)** [![GitHub_Stars](https://img.shields.io/github/stars/elastic/apm-agent-rum-js?style=social&color=white)](https://github.com/elastic/apm-agent-rum-js/stargazers)  
     Official Real User Monitoring JavaScript agent for Elastic Observability. Instruments single-page applications, browser navigation, and correlates frontend events with Elasticsearch APM.
 
-18. **[web-vitals-reporter](https://github.com/treosh/web-vitals-reporter)** [![GitHub stars](https://img.shields.io/github/stars/treosh/web-vitals-reporter?style=social&color=white)](https://github.com/treosh/web-vitals-reporter/stargazers)  
+18. **[web-vitals-reporter](https://github.com/treosh/web-vitals-reporter)** [![GitHub_Stars](https://img.shields.io/github/stars/treosh/web-vitals-reporter?style=social&color=white)](https://github.com/treosh/web-vitals-reporter/stargazers)  
     Zero-dependency reporter that measures Google Web Vitals and transmits them via `navigator.sendBeacon` with a single compact POST request per session.
 
 ---
@@ -144,7 +144,7 @@ Contributions are welcome and appreciated! To propose a new SaaS or Open-Source 
 
 1. 🍴 **Fork** this repository.
 2. 🌿 **Create a branch**: `git checkout -b add/my-awesome-rum-tool`.
-3. 📝 **Add your tool**: Follow the existing format with accurate pricing, free tier details, or GitHub star badges.
+3. 📝 **Add your tool**: Follow the existing format with accurate pricing, free tier details, or GitHub Stars_Badges.
 4. 🚀 **Commit & Push**: `git commit -m "Add: [Tool Name]" && git push origin add/my-awesome-rum-tool`.
 5. 📬 **Submit a Pull Request** with a brief summary of the tool.
 
