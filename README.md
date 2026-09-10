@@ -22,32 +22,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Datadog RUM](https://www.datadoghq.com/product/real-user-monitoring/)**  
-  Full-featured real user monitoring integrated with Datadog’s APM, logs, and session replay for end-to-end observability and rapid troubleshooting.
-
-- **[New Relic Browser](https://newrelic.com/platform/browser-monitoring)**  
-  Browser and frontend monitoring with strong querying (NRQL), Core Web Vitals, session insights, and correlation to backend services.
-
-- **[Dynatrace RUM](https://www.dynatrace.com/)**  
-  AI-powered real user monitoring within the Dynatrace platform, offering automatic dependency mapping, anomaly detection, and deep user-experience analytics.
-
-- **[Elastic RUM](https://www.elastic.co/observability)**  
-  Real user monitoring as part of Elastic Observability, ingesting frontend data into the Elastic Stack for search, visualization, and correlation.
-
-- **[Sentry (Performance + Browser / Session Replay)](https://sentry.io/)**  
-  Error tracking and performance monitoring with strong frontend support, distributed tracing, and session replay capabilities.
-
-- **[Grafana Cloud / Faro (managed)](https://grafana.com/)**  
-  Managed frontend observability built on the open-source Grafana Faro SDK, tightly integrated with the LGTM stack.
-
-- **[Raygun, AppDynamics Browser, Instana, Sematext Experience](https://raygun.com/)**  
-  Specialized or platform RUM offerings focused on crash reporting, user experience, and application performance.
-
-- **[Azure Application Insights & SmartBear AlertSite](https://azure.microsoft.com/)**  
-  Cloud-native and synthetic + RUM solutions from major vendors for application and digital experience monitoring.
-
-- **[Other RUM & digital experience platforms](https://www.datadoghq.com/)**  
-  Additional commercial tools covering mobile RUM, synthetic monitoring, and full digital experience management.
+| Platform | Description & Focus | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Datadog RUM](https://www.datadoghq.com/product/real-user-monitoring/)** | Full-featured real user monitoring integrated with APM, logs, Core Web Vitals, and session replay for end-to-end troubleshooting. | Starts at **$1.50 / 1,000 sessions/month** (annual) or $2.20/1k on-demand ($0.15/1k for RUM Measure; Session Replay add-on starts at $2.50/1k sessions) | **14-day free trial** with full platform access (all RUM features, APM, and logs; no credit card required) |
+| **[New Relic Browser](https://newrelic.com/platform/browser-monitoring)** | Browser and frontend monitoring with NRQL querying, Core Web Vitals, session insights, and correlation to backend distributed traces. | **$0/month** (included in free tier); overages beyond 100 GB start at **$0.40 / GB** data ingested (Standard) + $49/user/mo for additional Core users | **Free Forever Plan**: **100 GB/month** data ingest across all telemetry (shared across RUM, APM, and logs), 1 Full Platform user, unlimited basic users, 8+ days retention |
+| **[Dynatrace RUM](https://www.dynatrace.com/platform/real-user-monitoring/)** | AI-powered real user monitoring with Davis AI root-cause analysis, automatic dependency mapping, and user experience analytics. | Starts at **$0.00225 / session** ($2.25 per 1,000 sessions); **$0.0045 / session** ($4.50 per 1,000 sessions) including Session Replay under DPS model | **15-day free trial** with full platform access to RUM, APM, and Davis AI engine (no credit card required) + live sandbox playground |
+| **[Elastic RUM](https://www.elastic.co/observability)** | Frontend performance and error telemetry ingested into the Elastic Stack for Elasticsearch querying, Kibana dashboards, and full APM correlation. | Serverless starts at **$0.09 / GB ingested** + **$0.019 / GB retained/month**; hosted Elastic Cloud clusters start at **$95 / month** (Standard tier) | **14-day free trial** on Elastic Cloud with full access to Elastic Observability features and up to $300 in usage credits (no credit card required) |
+| **[Sentry (Performance & Replay)](https://sentry.io/)** | Error tracking and frontend performance monitoring, Core Web Vitals, distributed tracing across spans, and session replay. | Developer tier is **$0/month**; Team plan starts at **$26 / month** (billed annually) or $29/mo (monthly); Business starts at $80/mo (annual) | **Free Forever Plan (Developer)**: **10,000 performance spans/month**, **50 session replays/month**, **5,000 errors/month**, 1 GB attachments for 1 user; **14-day free trial** for Business tier |
+| **[Grafana Cloud Frontend Observability](https://grafana.com/products/cloud/frontend-observability/)** | Managed frontend monitoring built on the open-source Grafana Faro SDK, tightly integrated with Grafana, Loki, Tempo, and Mimir (LGTM). | **$0/month** for up to 50k sessions; Pro plan starts at **$19 / month** base fee + **$0.75 per 1,000 sessions** beyond free limits | **Free Forever Plan**: **50,000 sessions/month** for Frontend Observability, 10k series metrics, 50 GB logs, 50 GB traces, 3 users, and 14-day data retention |
+| **[Raygun Real User Monitoring](https://raygun.com/platform/real-user-monitoring)** | User experience monitoring, Core Web Vitals, page load waterfalls, single-page application tracking, and detailed user session journey insights. | Starts at **$8 / month** for 10,000 sessions (or **$40 / month** for 50,000 sessions, billed annually); volume discounts available | **14-day free trial** with full feature access and unlimited tracked sessions and applications during the trial (no credit card required) |
+| **[Cisco AppDynamics Browser RUM](https://www.appdynamics.com/product/end-user-monitoring/browser-monitoring)** | End-user monitoring tracking browser performance, page rendering, AJAX requests, JavaScript errors, and business transaction correlation. | Starts at **$0.06 per 1,000 RUM tokens/month** (1 pageview = 1 token, billed annually); core APM with RUM starts at **$60 / CPU core/month** | **15-day free trial** (extendable up to 30 days) with full access to Browser RUM, APM, and analytics across all agents (no credit card required) |
+| **[IBM Instana](https://www.ibm.com/products/instana)** | Automated real-time website monitoring (EUM), page performance, JS errors, and 1-second metric resolution linked to microservice traces. | Essentials starts at **$21 / host (MVS)/month** ($0.03/hr pay-per-use); Standard tier (full APM + EUM) starts at **$75 / host (MVS)/month** ($0.12/hr) | **14-day free trial** with unrestricted access to website monitoring, distributed tracing, and APM (no credit card required) + 2-minute sandbox demo |
+| **[Sematext Experience](https://sematext.com/experience/)** | Dedicated real user monitoring for Core Web Vitals, page speed distribution, UI interactions, API call latency, and Apdex satisfaction scores. | Starts at **$9 / month** for 25,000 page views (7-day data retention); scales to **$29 / month** for 100,000 page views | **14-day free trial** with full platform capabilities and unlimited page views/applications during the trial (no credit card required) |
+| **[Azure Application Insights](https://azure.microsoft.com/products/monitor/)** | Cloud-native APM with browser JavaScript SDK for page views, user timings, AJAX calls, and full-stack distributed tracing. | **$0/month** for first 5 GB; pay-as-you-go ingestion starts at **$2.30 per GB** ingested (Analytics Logs, East US) with 90 days retention included | **Free Forever Plan**: **5 GB/month** data ingestion free per billing account with 90 days retention; plus Azure Free Account provides $200 credits for 30 days |
+| **[SmartBear AlertSite](https://smartbear.com/product/alertsite/)** | Combined real user and synthetic monitoring platform verifying web performance, transaction flows, and APIs from 350+ global nodes. | Entry-level packages start at **$99 / month** (scaling up to $199/mo depending on monitor frequency, check steps, and location count) | **30-day free trial** with full access to global monitoring nodes, synthetic and real user monitors, and alerting (no credit card required) |
+| **[SpeedCurve](https://www.speedcurve.com/)** | Frontend performance monitoring with LUX (Live User Experience) RUM, tracking Core Web Vitals, user engagement, and bounce rate correlations. | Starter tier starts at **$90 / month** (billed annually, or $113/mo monthly) for 100,000 RUM pageviews and 20,000 synthetic checks | **30-day free trial** with full access to LUX RUM and synthetic performance monitoring (no credit card required) |
+| **[LogRocket](https://logrocket.com/)** | Frontend observability combining session replay, Core Web Vitals & performance monitoring, JS error tracking, and product analytics. | Developer tier is **$0/month**; Core paid tier starts at **$69 / month** (billed annually) for 10,000 sessions/month | **Free Forever Plan (Developer)**: **1,000 sessions/month**, 3 team seats, and 1-month data retention; **14-day free trial** for paid plans |
+| **[SolarWinds Pingdom](https://www.pingdom.com/)** | Real user monitoring paired with synthetic uptime and transaction checks, measuring load times, geographies, and browser platforms. | Starts at **$18 / month** for 100,000 RUM pageviews/month (billed annually, or $19.50/mo monthly) | **30-day free trial** with full access to Real User Monitoring and Synthetic Monitoring (no credit card required) |
+| **[Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/)** | Lightweight, privacy-first real user monitoring without cookies, tracking Core Web Vitals (LCP, INP, CLS) and page load timings from Cloudflare edge. | **100% Free** ($0/month with no paid tier required) | **Free Forever Plan with Unlimited Usage**: Unlimited pageviews and sessions across unlimited sites for any Cloudflare account (no volume cap or credit card needed) |
 
 ## Open-Source GitHub Projects
 
