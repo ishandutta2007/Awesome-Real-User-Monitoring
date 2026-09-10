@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="380" style="background:#070b14;border-radius:16px;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0c162d"/>
+      <stop offset="100%" stop-color="#091122"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="45%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <linearGradient id="metricGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <linearGradient id="metricGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+
+    <linearGradient id="metricGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.2"/>
+      <stop offset="30%" stop-color="#10b981" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#f43f5e" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes pulseGrid {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes dashAnim {
+        0% { stroke-dashoffset: 2000; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes beaconPing1 {
+        0% { r: 5px; opacity: 1; }
+        100% { r: 24px; opacity: 0; }
+      }
+      @keyframes beaconPing2 {
+        0% { r: 5px; opacity: 1; }
+        100% { r: 24px; opacity: 0; }
+      }
+      @keyframes floatBadge {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes glowGlow {
+        0%, 100% { filter: drop-shadow(0 0 12px rgba(56,189,248,0.4)); }
+        50% { filter: drop-shadow(0 0 24px rgba(56,189,248,0.85)); }
+      }
+      .telemetry-line {
+        stroke-dasharray: 100 40;
+        animation: dashAnim 15s linear infinite;
+      }
+      .grid-lines {
+        animation: pulseGrid 4s ease-in-out infinite;
+      }
+      .ping1 {
+        animation: beaconPing1 2.2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+      .ping2 {
+        animation: beaconPing2 2.2s cubic-bezier(0, 0.2, 0.8, 1) infinite 1.1s;
+      }
+      .floating-pill {
+        animation: floatBadge 4s ease-in-out infinite;
+      }
+      .banner-header {
+        animation: glowGlow 6s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- Matrix Grid Lines -->
+  <g class="grid-lines" stroke="#38bdf8" stroke-width="0.75">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    
+    <line x1="240" y1="0" x2="240" y2="380" stroke-opacity="0.25"/>
+    <line x1="480" y1="0" x2="480" y2="380" stroke-opacity="0.25"/>
+    <line x1="720" y1="0" x2="720" y2="380" stroke-opacity="0.25"/>
+    <line x1="960" y1="0" x2="960" y2="380" stroke-opacity="0.25"/>
+  </g>
+
+  <!-- Ambient Glowing Nebulas -->
+  <circle cx="220" cy="190" r="160" fill="#00f2fe" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="1020" cy="180" r="180" fill="#8b5cf6" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="600" cy="100" r="140" fill="#38bdf8" opacity="0.06" filter="url(#glow)"/>
+
+  <!-- Dynamic Telemetry Waveform -->
+  <path class="telemetry-line" d="M 0,270 L 120,270 L 220,270 L 270,220 L 310,310 L 360,190 L 400,280 L 440,260 L 510,270 L 620,270 L 670,200 L 710,320 L 760,160 L 800,290 L 840,250 L 920,270 L 1020,270 L 1080,210 L 1120,290 L 1200,270" fill="none" stroke="url(#lineGrad)" stroke-width="3.5" filter="url(#glow)"/>
+
+  <!-- Telemetry Beacon Nodes with Pulse Ring -->
+  <g transform="translate(360, 190)">
+    <circle class="ping1" cx="0" cy="0" r="5" fill="none" stroke="#10b981" stroke-width="2"/>
+    <circle cx="0" cy="0" r="6" fill="#10b981" filter="url(#glow)"/>
+  </g>
+  <g transform="translate(760, 160)">
+    <circle class="ping2" cx="0" cy="0" r="5" fill="none" stroke="#00f2fe" stroke-width="2"/>
+    <circle cx="0" cy="0" r="6" fill="#00f2fe" filter="url(#glow)"/>
+  </g>
+  <g transform="translate(1080, 210)">
+    <circle class="ping1" cx="0" cy="0" r="5" fill="none" stroke="#f43f5e" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#f43f5e" filter="url(#glow)"/>
+  </g>
+
+  <!-- Central Header Branding -->
+  <g class="banner-header" transform="translate(600, 105)" text-anchor="middle">
+    <rect x="-190" y="-42" width="380" height="28" rx="14" fill="#0f2142" stroke="#38bdf8" stroke-width="1.2" opacity="0.95"/>
+    <text x="0" y="-24" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="2.5">REAL USER MONITORING (RUM)</text>
+
+    <text x="0" y="32" font-size="44" font-weight="900" fill="url(#titleGrad)" letter-spacing="0.5">AWESOME REAL USER MONITORING</text>
+    
+    <text x="0" y="66" font-size="16" font-weight="500" fill="#94a3b8" letter-spacing="0.8">Frontend Observability • Core Web Vitals • Session Replay • Error Diagnostics</text>
+  </g>
+
+  <!-- Metric Badges -->
+  <g class="floating-pill" transform="translate(140, 290)">
+    <rect x="0" y="0" width="200" height="48" rx="24" fill="#0c1830" stroke="#10b981" stroke-width="1.2" opacity="0.95"/>
+    <circle cx="26" cy="24" r="10" fill="url(#metricGrad1)"/>
+    <text x="26" y="28" text-anchor="middle" font-size="11" font-weight="900" fill="#ffffff">✓</text>
+    <text x="48" y="21" font-size="13" font-weight="700" fill="#ecfdf5">Core Web Vitals</text>
+    <text x="48" y="37" font-size="11" font-weight="500" fill="#6ee7b7">LCP • INP • CLS • TTFB</text>
+  </g>
+
+  <g class="floating-pill" transform="translate(500, 290)" style="animation-delay: -1.3s;">
+    <rect x="0" y="0" width="200" height="48" rx="24" fill="#0c1830" stroke="#38bdf8" stroke-width="1.2" opacity="0.95"/>
+    <circle cx="26" cy="24" r="10" fill="url(#metricGrad2)"/>
+    <text x="26" y="29" text-anchor="middle" font-size="13" font-weight="900" fill="#ffffff">⚡</text>
+    <text x="48" y="21" font-size="13" font-weight="700" fill="#eff6ff">Session Replay &amp; UX</text>
+    <text x="48" y="37" font-size="11" font-weight="500" fill="#93c5fd">User Journeys • Heatmaps</text>
+  </g>
+
+  <g class="floating-pill" transform="translate(860, 290)" style="animation-delay: -2.6s;">
+    <rect x="0" y="0" width="200" height="48" rx="24" fill="#0c1830" stroke="#a855f7" stroke-width="1.2" opacity="0.95"/>
+    <circle cx="26" cy="24" r="10" fill="url(#metricGrad3)"/>
+    <text x="26" y="29" text-anchor="middle" font-size="13" font-weight="900" fill="#ffffff">🔗</text>
+    <text x="48" y="21" font-size="13" font-weight="700" fill="#faf5ff">Full-Stack Tracing</text>
+    <text x="48" y="37" font-size="11" font-weight="500" fill="#c4b5fd">OpenTelemetry • APM</text>
+  </g>
+</svg>
